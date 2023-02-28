@@ -21,3 +21,12 @@ h1{
   .box:hover i{
     transform: scale(1.5);
 }
+th {
+    background-color: #941818;
+  }
+  tr .stuff{
+    background-color: lightblue;
+  }
+  tr .instruc{
+    background-color: lightslategray;
+  }
