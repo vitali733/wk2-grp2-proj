@@ -9,4 +9,15 @@ h1{
 .recipe-img{
     margin: 2em 0em;
 }
-
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(235, 180, 144);
+    transform: scale(1.5);
+  }
+  .box:hover i{
+    transform: scale(1.5);
+}
