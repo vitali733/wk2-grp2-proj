@@ -27,3 +27,21 @@ h1{
     background: linear-gradient(to right, rgba(235,180,144,0.5), rgba(255,248,240,0.5))
 }
 
+.sidebars p{
+    padding-left: 1em;
+    
+}
+
+.sidebars .row{
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    height: 5em;
+    margin-bottom: 0rem;
+}
+
+.sidebars .row:hover{
+background-color: bisque;
+}
+
+
