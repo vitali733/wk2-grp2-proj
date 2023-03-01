@@ -19,6 +19,7 @@ h1{
     transform: scale(1.5);
   }
   .box:hover i{
+    background-color: lightblue;
     transform: scale(1.5);
 }
 
