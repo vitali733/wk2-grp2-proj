@@ -61,7 +61,8 @@ th {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: lightblue;
+  transform: scale(1.5);
 }
 
 .dropdown-content {
