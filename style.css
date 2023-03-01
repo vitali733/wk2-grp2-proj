@@ -5,7 +5,9 @@
 h1{
     font-size: 4em;
 }
-
+body{
+    background-color: aliceblue;
+}
 .recipe-img{
     margin: 2em 0em;
 }
@@ -19,7 +21,7 @@ h1{
     transform: scale(1.5);
   }
   .box:hover i{
-    background-color: lightblue;
+    background-color: lightcoral;
     transform: scale(1.5);
 }
 
