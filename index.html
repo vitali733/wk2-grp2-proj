@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Hello, world!</title>
+    <title>Cookbook</title>
    
   </head>
 
@@ -19,11 +19,33 @@
 
         <div class="row d-flex justify-content-center">
 
-            <div class="col-5 bg-dark">
-
-                <div class="row bg-info">
-                    <p>Switlana Code</p>
+            <div class="col-5 border">
+            
+            <!-- Svitlana Code START -->
+                <div class="row">
+                    <div class="col d-flex justify-content-center">
+                        <img src="resources/logo2.png" "alt="">
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col">
+                        <p class="text-center text-uppercase">725/Recipes</p>   
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col border">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Spice&Rice</button>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Dessert</a></li>
+                              <li><a class="dropdown-item" href="#">Main dish</a></li>
+                              <li><a class="dropdown-item" href="#">Salad</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Svitlana Code END -->
 
                 <div class="sidebars row bg-success">
 
@@ -81,7 +103,7 @@
                         </div>
                     
                 </div>
-
+            
 
             </div>
 
@@ -96,7 +118,7 @@
                         <a class="box" href="#"><i class="fa fa-fw fa-files-o"></i></a>
                         <a class="box" href="#"><i class="fa fa-fw fa-expand"></i></a>
                         <a class="box" href=""><i class="fa fa-eraser" aria-hidden="true"></i></a>
-                        <a class="box" href=""><i class="fa fa-fw fa-share-alt"></i></a>
+                        <a id="share-button" class="box" href=""><i class="fa fa-fw fa-share-alt"></i></a>
                         <a class="box" href=""><i class="fa fa-fw fa-file-pdf-o"></i></a>
                         <a class="box" href="#"><i class="fa fa-fw fa-trash"></i></a>
                         <a class="box" href="#"><i class="fa fa-fw fa-ellipsis-v "></i></a>  
@@ -154,14 +176,43 @@
                     </div>
         
                 </div>
-        
+                <div class="row-table">
+                    <table class="table">
+                        <thead id="table-head">
+                          <tr class="gradient">
+                            <th></th>
+                            <th>Ingredient Name</th>
+                            <th>Amount</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td><img src="/resources/vecteezy_eggs-clipart-design-illustration_9384648_281.png" alt="egg" height=40 width=30></td>
+                            <td>Eggs</td>
+                            <td>3 Large Eggs</td>
+                          </tr>
+                          <tr>
+                            <td><img src="/resources/toppng.com-milk-png-600x500.png" alt="milk" height=40 width=30></td>
+                            <td>Milk</td>
+                            <td>2 cups</td>
+                          </tr>
+                          <tr>
+                            <td><img src="/resources/pngwing.com.png" alt="flour" height=40 width=30></td>
+                            <td>Flour</td>
+                            <td>350 grams</td>
+                            <tr>
+                            </tr>
+                          </tr>
+                        </tbody>
+                      </table>
+                  </div>
+                </div>
             </div>
            
     
             </div>
-    
+           
 
-            </div>
 
 
 
@@ -173,10 +224,11 @@
 
 
     <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.6/dist/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.2.1/dist/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
-  
+    <script src="app.js"></script>
 </body>
-</html>
+</html> 
