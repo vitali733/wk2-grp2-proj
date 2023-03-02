@@ -22,3 +22,15 @@ document.querySelector("#tiramisu").addEventListener("click", () => {
     document.querySelector("#frame").src = "./frames/tiramisu.html"
 });
 
+document.querySelector("#garlic").addEventListener("click", () => {
+    document.querySelector("#frame").src = "./frames/garlic.html"
+});
+
+document.querySelector("#chickpeas").addEventListener("click", () => {
+    document.querySelector("#frame").src = "./frames/chickpeas.html"
+});
+
+// document.querySelector("#tiramisu").addEventListener("click", () => {
+//     document.querySelector("#frame").src = "./frames/tiramisu.html"
+// });
+
