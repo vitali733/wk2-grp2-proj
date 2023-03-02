@@ -6,7 +6,9 @@
 h1{
     font-size: 2em;
 }
-
+body{
+    background-color: aliceblue;
+}
 .recipe-img{
     width: 100%;
     max-height: 260px;
@@ -22,6 +24,7 @@ h1{
     transform: scale(1.5);
   }
   .box:hover i{
+    background-color: lightcoral;
     transform: scale(1.5);
 }
 
@@ -39,4 +42,22 @@ h1{
     height: 100vh;
     overflow: hidden;
 }
+
+.sidebars p{
+    padding-left: 1em;
+    
+}
+
+.sidebars .row{
+    border: solid 1px;
+    display: flex;
+    align-items: center;
+    height: 5em;
+    margin-bottom: 0rem;
+}
+
+.sidebars .row:hover{
+background-color: bisque;
+}
+
 
