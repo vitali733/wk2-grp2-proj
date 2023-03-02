@@ -30,21 +30,22 @@ body{
     background: linear-gradient(to right, rgba(235,180,144,0.5), rgba(255,248,240,0.5))
 }
 
-.sidebars p{
-    padding-left: 1em;
-    
+.sidebars p{    
+    margin: 0;
 }
 
 .sidebars .row{
-    border: solid 1px;
     display: flex;
     align-items: center;
     height: 5em;
-    margin-bottom: 0rem;
+    padding-left: 1em;
+    
 }
 
 .sidebars .row:hover{
 background-color: bisque;
 }
 
-
+.sidebars .row img{
+    padding-right: 1em;
+}
