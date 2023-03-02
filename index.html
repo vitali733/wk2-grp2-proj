@@ -15,37 +15,42 @@
 
   <body>
     <!--Navigation Bar with  Icons-->
-    <div class="col ">
-
-        <div class="row d-flex justify-content-center" style="margin-right: 35%;">
+    <div class="container container-md container-xl mw-auto text-center" style="margin-right: 35%;">
+        <div class="row d-flex justify-content-center">
 
             <div class="col-5 border">
-            
             <!-- Svitlana Code START -->
-                <div class="row">
-                    <div class="col d-flex justify-content-center">
-
-                        <img src="./resources/logo2.png" alt="">
-
-
+            <div class="row">
+                <div class="col d-flex justify-content-center">
+                    <img class="img-fluid"src="resources/logo5.png" "alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="text-center text-uppercase">725/Recipes</p>   
+                </div>
+            </div>
+            <div class="row">
+                <div class="col border gradient">
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Spice&Rice</button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" id="pancakes" href="#">Pancakes</a></li>
+                            <li><a class="dropdown-item" id="tiramisu"href="#">Tiramisu</a></li>
+                            <li><a class="dropdown-item" id="thaicurry" href="#">Thai Green Curry</a></li>
+                            <li><a class="dropdown-item" id="hunan" href="#">Hunan Sauce</a></li>
+                        </ul>
                     </div>
                 </div>
+            </div>
+                <!-- Svitlana Code END -->
+            <div class="sidebars row bg-success">
+                <div  class="sidebar-1 col-4">
                 <div class="row">
-                    <div class="col">
-                        <p class="text-center text-uppercase">725/Recipes</p>   
-                    </div>
+                    <p class="font-weight-bold">salad</p>
                 </div>
                 <div class="row">
-                    <div class="col border">
-                        <div class="dropdown">
-                            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">Spice&Rice</button>
-                            <ul class="dropdown-menu">
-                              <li><a class="dropdown-item" href="#">Dessert</a></li>
-                              <li><a class="dropdown-item" href="#">Main dish</a></li>
-                              <li><a class="dropdown-item" href="#">Salad</a></li>
-                            </ul>
-                        </div>
-                    </div>
+                    <p>spices & more</p>
                 </div>
                 
                 <!-- Svitlana Code END -->
@@ -117,13 +122,32 @@
                 </div>
 
                 <!-- Vitali Code END -->
-
             </div>
+            <div id="sidebar-2" class="sidebar col-8 sidebar-2 border-left border-right border-secondary-subtle">
+                <div class="row">
+                    <p >Ginger Garlic Paste</p>
+                </div>
+                <div class="row">
+                    <p>Hunan Sauce</p>
+                </div>
+                <div class="row">
+                    <p>Pressure Cooker Chickpeas</p>
+                </div>
+                <div class="row">
+                    <p>Shawarma Spice Blend</p>
+                </div>
+                <div class="row">
+                    <p>Za'atar</p>
+                </div>
+                <div class="row border add-element">
+                    <p>Add Recipe</p>
+                </div>
+            </div>
+            </div>
+        </div>
 
             <div class="col-7">
-                
                 <div class="row navbar-text">
-
                     <div class="navbar">
                         <a class="active box" href="./pancakes.html" ><i style="transform: 1.5;" class="fa fa-fw fa-pencil"></i></a>
                         <a class="box" href="./index.html"><i class="fa fa-fw fa-list"></i></a>
@@ -136,107 +160,13 @@
                         <a class="box" href="#"><i class="fa fa-fw fa-trash"></i></a>
                         <a class="box" href="#"><i class="fa fa-fw fa-ellipsis-v "></i></a>  
                     </div>
-                    
                 </div>
-               
-                <!--End of Navigation Bar-->
-            
-                <div class="row">
-        
-                    <div class="col">
-                        <h1 class="text-uppercase">Recipe 1</h1>
-                        <hr>
-                    </div>
-        
-                </div>
-        
-                <div class="row">
-        
-                    <div class="col font-italic">
-                        <h2>Description of Recipe 1</h2>
-                    </div>
-        
-                </div>
-        
-                <div class="row">
-        
-                    <div class="col">
-                        <img class="recipe-img img-fluid" src="resources\recipe_img.jpg" alt="recipe picture">
-                    </div>
-        
-                </div>
-        
-                <div class="row grid" >
-        
-                    <div class="col-6 ">
-                        <p class="font-weight-bold">grid element</p>
-                    </div>
-        
-                    <div class="col-6">
-                        <p class="font-weight-bold text-uppercase text-secondary">grid element</p>
-                    </div>
-        
-                </div>
-        
-                <div class="row grid">
-        
-                    <div class="col-6">
-                        <p>grid element</p>
-                    </div>
-        
-                    <div class="col-6 text-secondary">
-                        <p>grid element</p>
-                    </div>
-        
-                </div>
-                <div class="row-table">
-                    <table class="table">
-                        <thead id="table-head">
-                          <tr class="gradient">
-                            <th></th>
-                            <th>Ingredient Name</th>
-                            <th>Amount</th>
-                          </tr>
-                        </thead>
-                        <tbody>
-                          <tr>
-                            <td><img src="./resources/vecteezy_eggs-clipart-design-illustration_9384648_281.png" alt="egg" height=40 width=30></td>
-                            <td>Eggs</td>
-                            <td>3 Large Eggs</td>
-                          </tr>
-                          <tr>
-                            <td><img src="./resources/toppng.com-milk-png-600x500.png" alt="milk" height=40 width=30></td>
-                            <td>Milk</td>
-                            <td>2 cups</td>
-                          </tr>
-                          <tr>
-                            <td><img src="./resources/pngwing.com.png" alt="flour" height=40 width=30></td>
-                            <td>Flour</td>
-                            <td>350 grams</td>
-                            <tr>
-                            </tr>
-                          </tr>
-                        </tbody>
-                      </table>
-                  </div>
-                </div>
+               <!--End of Navigation Bar-->
+               <div class="ratio">
+                <iframe id="frame" class="recipe border border-0 vh-auto" src="./frames/hunan.html" title="hunansauce"></iframe>
+               </div>
             </div>
-           
-    
-            </div>
-           
-
-
-
-
-            
-        
-    
-
-
-
-
-    <!-- Optional JavaScript -->
+           <!-- Optional JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
