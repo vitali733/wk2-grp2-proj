@@ -34,3 +34,26 @@ document.querySelector("#chickpeas").addEventListener("click", () => {
 //     document.querySelector("#frame").src = "./frames/tiramisu.html"
 // });
 
+document.querySelector("#chickpeas").addEventListener("click", () => {
+    document.querySelector('.dropdown-toggle').innerText="Pressure Cooker Chickpeas"
+});
+
+document.querySelector("#garlic").addEventListener("click", () => {
+    document.querySelector('.dropdown-toggle').innerText="Ginger Garlic Paste"
+});
+
+document.querySelector("#pancakes").addEventListener("click", () => {
+    document.querySelector('.dropdown-toggle').innerText="Pancakes"
+});
+
+document.querySelector("#tiramisu").addEventListener("click", () => {
+    document.querySelector('.dropdown-toggle').innerText="Tiramisu"
+});
+
+document.querySelector("#thaicurry").addEventListener("click", () => {
+    document.querySelector('.dropdown-toggle').innerText="Thai Green Curry"
+});
+
+document.querySelector("#hunan").addEventListener("click", () => {
+    document.querySelector('.dropdown-toggle').innerText="Hunan Sauce"
+});
